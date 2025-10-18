@@ -2,6 +2,7 @@
 
 ### Arrays: (LC 35) Solution
 
+```python
 nums = list(map(int,input("Enter space seperated integers: ").split()))
 target = int(input("Enter the target: "))
 n = len(nums)
