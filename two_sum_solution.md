@@ -1,6 +1,6 @@
 [View Problem](https://leetcode.com/problems/two-sum)
 
-# Arrays: (LC 1) Solution
+### Arrays: (LC 1) Solution
 
 ```python
 nums = list(map(int,input("Enter space seperated integers: ").split()))
