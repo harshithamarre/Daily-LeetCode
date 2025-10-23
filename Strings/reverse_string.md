@@ -1,1 +1,9 @@
+[View Problem](https://leetcode.com/problems/reverse-string?envType=problem-list-v2&envId=string)
 
+### Strings: (LC 344) Solution
+
+```python
+s = list(input("Enter a sting: ").split())
+s.reverse()              # Reverse in-place
+k = ''.join(s)           # Convert back to string
+print(k)
