@@ -2,8 +2,6 @@
 
 ### Strings: (LC 205) Solution
 ```python
-# Strings: (LC 205)
-
 s1 = input("Enter first string: ")
 s2 = input("Enter second string: ")
 
