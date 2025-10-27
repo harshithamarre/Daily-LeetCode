@@ -1,6 +1,6 @@
 [View Problem](https://leetcode.com/problems/reverse-string-ii?envType=problem-list-v2&envId=string)
 
-### Strings (LC 541) solution:
+### Strings: (LC 541) solution:
 
 ```python
 s = input("Enter any string: ")
