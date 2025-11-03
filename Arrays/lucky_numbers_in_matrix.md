@@ -3,8 +3,6 @@
 ### Arrays: (LC 1380) Solution
 
 ```python
-# Arrays: (LC 1380)
-
 import numpy as np
 
 matrix = np.array([[3,7,8],[9,11,13],[15,16,17]])
