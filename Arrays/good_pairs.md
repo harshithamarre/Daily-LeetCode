@@ -8,16 +8,18 @@
 - Space complexity: $$O(1)$$
 
 ### Code
-```python []
-class Solution(object):
-    def numIdenticalPairs(self, nums):
-        
-        cnt = 0
+```python
+nums = list(map(int,input("Enter space separated integers: ").split(',')))
 
-        for i in range(len(nums)-1):
-            for j in range(i+1,len(nums)):
-                if(nums[i] == nums[j]):
-                    cnt += 1
+def GoodPairs(nums):
 
-        return cnt
+    cnt = 0
+
+    for i in range(len(nums)-1):
+        for j in range(i+1,len(nums)):
+            if(nums[i] == nums[j]):
+                cnt += 1
+    return cnt
+
+GoodPairs(nums)
 ```
