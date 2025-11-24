@@ -1,6 +1,8 @@
-# Arrays: (LC 349)
-# Problem Link: https://leetcode.com/problems/intersection-of-two-arrays
+[View Problem](https://leetcode.com/problems/intersection-of-two-arrays)
 
+### Arrays: (LC 349)
+
+```python
 nums1 = list(map(int,input("Enter space separated integers: ").split(',')))
 nums2 = list(map(int,input("Enter space separated integers: ").split(',')))
 
