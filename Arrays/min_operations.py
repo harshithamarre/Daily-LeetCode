@@ -1,0 +1,71 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "0cb7fe4d-d313-4ed4-aca1-234e5bdd128c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter array of integers:  3,9,7\n",
+      "Enter any integer:  5\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "4\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Arrays: (LC 3512)\n",
+    "# Problem Link: https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k\n",
+    "\n",
+    "nums = list(map(int,input(\"Enter array of integers: \").split(\",\")))\n",
+    "k = int(input(\"Enter any integer: \"))\n",
+    "\n",
+    "tsum = sum(nums)\n",
+    "\n",
+    "if tsum % k == 0:\n",
+    "    print(\"0\")\n",
+    "else:\n",
+    "    res = tsum % k\n",
+    "    print(res)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "093cb769-db5d-4baa-ad9d-066799693325",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
