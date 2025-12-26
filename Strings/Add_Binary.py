@@ -4,6 +4,7 @@
 a = input("Enter first binary number: ")
 b = input("Enter second binary number: ")
 
+'''
 res = ""
 carry = 0
 
@@ -21,3 +22,10 @@ for i in range(max(len(a),len(b))):
 if carry:
     res = "1" + res
 print(res)
+'''
+
+d1 = int(a,2)
+d2 = int(b,2)
+
+res = d1 + d2
+print(bin(res)[2:])
